@@ -24,7 +24,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 90px;
+    height: 80px;
     position: relative;
   }
   .cs_main_header_right {
@@ -136,7 +136,8 @@
 .cs_site_branding {
   display: inline-block;
   img {
-    max-height: 45px;
+    transform: translate(0px, -8px);
+    max-height: 70px;
   }
 }
 
@@ -187,7 +188,7 @@
       height: inherit;
 
       > li {
-        margin-right: 40px;
+        margin-right: 105px;
         height: inherit;
 
         &:last-child {

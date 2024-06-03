@@ -12,8 +12,7 @@ export default function HeroStyle4({ videoSrc, bgUrl, thumbnailSrc }) {
       <div className="container">
         <div className="cs_hero_text position-relative">
           <h1 className="cs_hero_title cs_fs_68">
-            Mastering Digital Realm, Exploring the Dynamic World of Our Digital
-            Studio
+            Fairways API
           </h1>
         </div>
         <div className="row align-items-center">

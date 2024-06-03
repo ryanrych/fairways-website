@@ -8,8 +8,8 @@ export default function Layout({ darkMode }) {
     <div className={`${darkMode ? 'cs_dark' : ''}`}>
       <Header
         logoUrl={darkMode ? '/images/logo_white.svg' : '/images/logo.svg'}
-        actionBtnText="Getting Started"
-        actionBtnUrl="/contact"
+        actionBtnText="Get"
+        actionBtnUrl="/light/contact"
       />
       <Outlet />
       <Footer />

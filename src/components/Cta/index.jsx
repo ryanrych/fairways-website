@@ -15,12 +15,14 @@ export default function Cta({
       className={`cs_cta cs_style_1 ${
         variant ? variant : ''
       } cs_bg_filed position-relative cs_radius_15 overflow-hidden text-center`}
-      style={{ backgroundImage: `url(${bgUrl})` }}
+      //style={{ backgroundImage: `url(${bgUrl})` }}
+      style={{ backgroundColor: "black" }}
     >
       {noShape ? (
         ''
       ) : (
         <>
+          {/*
           <div className="cs_cta_shape_1">
             <svg
               width={100}
@@ -53,6 +55,7 @@ export default function Cta({
               />
             </svg>
           </div>
+          */}
         </>
       )}
 

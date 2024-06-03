@@ -21,24 +21,22 @@ export default function ContactPage() {
           <div className="row align-items-center cs_gap_y_45">
             <div className="col-lg-6">
               <h2 className="cs_fs_50">
-                Come & visit <br />
-                our place!
+                Send Us A Message <br />
+                For More Information!
               </h2>
               <div className="cs_height_55 cs_height_lg_30" />
+              {/*
               <ul className="cs_mp0 cs_contact_info">
                 <li>
                   <h3 className="cs_fs_29 cs_semibold">Email:</h3>
-                  <p className="mb-0">hello@zivan.com</p>
+                  <p className="mb-0">ryanjrychlak@gmail.com</p>
                 </li>
                 <li>
                   <h3 className="cs_fs_29 cs_semibold">Phone:</h3>
-                  <p className="mb-0">+54 45 454 78 23</p>
-                </li>
-                <li>
-                  <h3 className="cs_fs_29 cs_semibold">Address:</h3>
-                  <p className="mb-0">55/53 Jay Pathshala Apt. 908, USA</p>
+                  <p className="mb-0">+1 (262) 441-6020</p>
                 </li>
               </ul>
+              */}
             </div>
             <div className="col-lg-6">
               <div className="cs_contact_form_wrap">
@@ -77,7 +75,7 @@ export default function ContactPage() {
                   <textarea cols={30} rows={5} className="cs_form_field" />
                   <div className="cs_height_38 cs_height_lg_25" />
                   <button className="cs_btn cs_style_1">
-                    Learn More{' '}
+                    Send{' '}
                     <span>
                       <i>
                         <Icon icon="fa6-solid:arrow-right" />
@@ -94,6 +92,7 @@ export default function ContactPage() {
         </div>
         <div className="cs_height_0 cs_height_lg_80" />
       </section>
+      {/*
       <div className="cs_map">
         <iframe
           id="map"
@@ -102,6 +101,7 @@ export default function ContactPage() {
           title="Google Map"
         />
       </div>
+      */}
     </>
   );
 }

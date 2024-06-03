@@ -90,8 +90,10 @@ export default function Footer() {
   return (
     <footer
       className="cs_fooer cs_bg_filed"
-      style={{ backgroundImage: 'url(/images/footer_bg.jpeg)' }}
+      //style={{ backgroundImage: 'url(/images/footer_bg.jpeg)' }}
+      style={{ backgroundColor: 'black' }}
     >
+      {/*
       <div className="cs_fooer_main">
         <div className="container">
           <div className="row">
@@ -163,6 +165,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      */}
       <div className="container">
         <div className="cs_bottom_footer">
           <div className="cs_bottom_footer_left">
@@ -174,7 +177,7 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div className="cs_copyright">Copyright © 2023 Laralink.</div>
+          {/*<div className="cs_copyright">Copyright © 2023 Laralink.</div>*/}
           <div className="cs_bottom_footer_right">
             <ul className="cs_footer_links cs_mp0">
               {policyMenuList.map((item, index) => (

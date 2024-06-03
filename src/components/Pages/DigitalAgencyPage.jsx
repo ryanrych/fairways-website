@@ -143,12 +143,13 @@ export default function DigitalAgencyPage({ darkMode }) {
         subTitle="and butts"
       />
       <div className="cs_primary_bg">
-        <Spacing lg="125" md="80" />
+        <Spacing lg="40" md="80" />
         <div className="container">
           <FunFact data={funfactData} colorVariant="cs_color_1" />
         </div>
-        <Spacing lg="125" md="80" />
+        <Spacing lg="40" md="80" />
       </div>
+      {/*
       <Spacing lg="150" md="80" />
       <AboutStyle4
         thumbnailSrc="/images/digital-agency/about_1.jpeg"
@@ -161,6 +162,8 @@ export default function DigitalAgencyPage({ darkMode }) {
       />
 
       <Spacing lg="150" md="80" />
+      */}
+      <Spacing lg="100" md="80" />
       <AboutStyle5
         thumbnailSrc="/images/digital-agency/about_2.jpeg"
         videoSrc="/images/digital-agency/video.mp4"
@@ -168,11 +171,13 @@ export default function DigitalAgencyPage({ darkMode }) {
         title="Best value service provider agency"
         subTitle="We make specializing in strategic digital marketing, partners with aiming the world's leading brands. Breaking from the norm, we push boundaries and do merge imaginative thinking posible dolores."
         progressBarList={[
-          { title: 'Digital Marketing', percentage: '75' },
+          { title: 'North American Coverage', percentage: '90' },
           { title: 'Brand Strategy', percentage: '85' },
           { title: 'Competitor Analysis', percentage: '95' },
+          { title: 'Penis and Butts', percentage: '100' },
         ]}
       />
+      {/*
       <Spacing lg="150" md="80" />
       <section className="cs_primary_bg">
         <Spacing lg="143" md="75" />
@@ -256,6 +261,7 @@ export default function DigitalAgencyPage({ darkMode }) {
         <PortfolioSlider data={portfolioData} />
         <Spacing lg="150" md="80" />
       </section>
+      */}
       <section className="cs_gray_bg_2 cs_shape_animation_2">
         <div className="cs_shape_1 position-absolute">
           <svg
@@ -300,6 +306,7 @@ export default function DigitalAgencyPage({ darkMode }) {
         </div>
         <div className="cs_height_150 cs_height_lg_80" />
       </section>
+      {/*
       <TestimonialSlider
         layeredImages={[
           '/images/digital-agency/layer_img_1.png',
@@ -310,13 +317,15 @@ export default function DigitalAgencyPage({ darkMode }) {
         ]}
         data={testimonialData}
       />
+      */}
       <Cta
-        title="Is there a specific project or goal <br/>that you have in mind?"
+        title="Questions?"
         btnText="Contact Us"
-        btnUrl="/contact"
-        bgUrl="/images/creative-agency/cta_bg.jpeg"
+        btnUrl="/light/contact"
+        //bgUrl="/images/creative-agency/cta_bg.jpeg"
         variant="cs_type_1"
       />
+      {/*
       <section className="cs_shape_animation_3">
         <div className="cs_shape_1 position-absolute">
           <svg
@@ -361,6 +370,7 @@ export default function DigitalAgencyPage({ darkMode }) {
         <Brands data={darkMode ? brandListDark : brandList} />
       </div>
       <Spacing lg="135" md="80" />
+      */}
     </>
   );
 }
