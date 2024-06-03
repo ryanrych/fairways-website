@@ -166,7 +166,7 @@ export default function DigitalAgencyPage({ darkMode }) {
       <Spacing lg="100" md="80" />
       <AboutStyle5
         thumbnailSrc="/images/digital-agency/about_2.jpeg"
-        videoSrc="/images/digital-agency/video.mp4"
+        videoSrc="/images/digital-agency/cut3.mp4"
         miniTitle="What We Do"
         title="Best value service provider agency"
         subTitle="We make specializing in strategic digital marketing, partners with aiming the world's leading brands. Breaking from the norm, we push boundaries and do merge imaginative thinking posible dolores."
