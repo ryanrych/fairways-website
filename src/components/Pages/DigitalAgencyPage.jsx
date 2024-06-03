@@ -322,7 +322,7 @@ export default function DigitalAgencyPage({ darkMode }) {
         title="Questions?"
         btnText="Contact Us"
         btnUrl="/light/contact"
-        //bgUrl="/images/creative-agency/cta_bg.jpeg"
+        bgUrl="/images/creative-agency/cta_bg.jpeg"
         variant="cs_type_1"
       />
       {/*

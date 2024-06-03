@@ -19,7 +19,7 @@ export default function AboutStyle5({
         <div className="row align-items-center cs_gap_y_40">
           <div className="col-lg-5">
             <div className="cs_section_heading cs_style_1">
-              <svg
+              {/*<svg
                 width={84}
                 height={77}
                 viewBox="0 0 84 77"
@@ -41,6 +41,7 @@ export default function AboutStyle5({
                   />
                 </g>
               </svg>
+              */}
               <p className="cs_section_subtitle cs_accent_color cs_fs_18 mb-0">
                 {miniTitle}
               </p>
