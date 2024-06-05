@@ -25,35 +25,43 @@ export default function PricingTableList() {
         <div className="col-lg-4">
           {tab === 'monthly' && (
             <PricingTable
-              title="Silver"
-              subTitle="Control your choices for effective business growth and more customers."
-              price="399"
+              title="Weekend Warrior"
+              subTitle="A snapshot of our clubhouse data and API access to the clubhouse data in our DB."
+              price="100"
               currency="$"
-              timeline="monthly"
+              timeline="+ $9.99 monthly"
               features={[
-                'Limited content',
-                'Ad campaign',
-                'Branding consultancy',
-                'Video ad banner',
+                'Course Address + GPS Location',
+                'Clubhouse Contact Information',
+                'Tee Boxes Offered',
+                'Total Length',
+                'Number of Holes',
+                'Course Rating + Slope',
+                'Other Miscellaneous Information',
+                'API Access for consistent updates',
               ]}
-              btnText="Choose Packedge"
+              btnText="Choose Package"
               btnLink="/"
             />
           )}
           {tab === 'yearly' && (
             <PricingTable
-              title="Silver"
-              subTitle="Control your choices for effective business growth and more customers."
-              price="499"
+              title="Weekend Warrior"
+              subTitle="A snapshot of our clubhouse data and API access to the clubhouse data in our DB."
+              price="50"
               currency="$"
-              timeline="yearly"
+              timeline="+ $89.99 yearly"
               features={[
-                'Limited content',
-                'Ad campaign',
-                'Branding consultancy',
-                'Video ad banner',
+                'Course Address + GPS Location',
+                'Clubhouse Contact Information',
+                'Tee Boxes Offered',
+                'Total Length',
+                'Number of Holes',
+                'Course Rating + Slope',
+                'Other Miscellaneous Information',
+                'API Access for consistent updates',
               ]}
-              btnText="Choose Packedge"
+              btnText="Choose Package"
               btnLink="/"
             />
           )}
@@ -61,36 +69,40 @@ export default function PricingTableList() {
         <div className="col-lg-4">
           {tab === 'monthly' && (
             <PricingTable
-              title="Gold"
-              subTitle="Control your choices for effective business growth and more customers."
-              price="449"
+              title="Scratch Golfer"
+              subTitle="A one-time purchase of a snapshot of our ENTIRE database."
+              price="200"
               currency="$"
-              timeline="monthly"
+              timeline=""
               features={[
-                'Limited content',
-                'Social ad campaign',
-                'Premium consultancy',
-                'Secret strategy',
+                'Access to 100% of our data',
+                'Scorecard Information for Courses',
+                'Hole Distance',
+                'Hole Par',
+                'Hole Handicap',
+                'Access to our data in any format of your choice. (Excel, CSV, JSON, SQL, etc.)'
               ]}
-              btnText="Choose Packedge"
+              btnText="Choose Package"
               btnLink="/"
               popular
             />
           )}
           {tab === 'yearly' && (
             <PricingTable
-              title="Gold"
-              subTitle="Control your choices for effective business growth and more customers."
-              price="649"
+              title="Scratch Golfer"
+              subTitle="A one-time purchase of a snapshot of our ENTIRE database."
+              price="200"
               currency="$"
-              timeline="yearly"
+              timeline=""
               features={[
-                'Limited content',
-                'Social ad campaign',
-                'Premium consultancy',
-                'Secret strategy',
+                'Access to 100% of our data',
+                'Scorecard Information for Courses',
+                'Hole Distance',
+                'Hole Par',
+                'Hole Handicap',
+                'Access to our data in any format of your choice. (Excel, CSV, JSON, SQL, etc.)'
               ]}
-              btnText="Choose Packedge"
+              btnText="Choose Package"
               btnLink="/"
               popular
             />
@@ -99,35 +111,35 @@ export default function PricingTableList() {
         <div className="col-lg-4">
           {tab === 'monthly' && (
             <PricingTable
-              title="Platinum"
-              subTitle="Control your choices for effective business growth and more customers."
-              price="599"
+              title="Tour Pro"
+              subTitle="Our ultimate package. A complete snapshot of the database as well as FULL API access."
+              price="200"
               currency="$"
-              timeline="monthly"
+              timeline="+ $29.99 monthly"
               features={[
-                'Unlimited content',
-                'Ad campaign',
-                'Branding consultancy',
-                'Video ad banner',
+                'All Features of Lower Packages',
+                'Key to Our State of the Art API',
+                'Data Held on Our Server',
+                'Consistent Updates to the Data'
               ]}
-              btnText="Choose Packedge"
+              btnText="Choose Package"
               btnLink="/"
             />
           )}
           {tab === 'yearly' && (
             <PricingTable
-              title="Platinum"
-              subTitle="Control your choices for effective business growth and more customers."
-              price="899"
+              title="Tour Pro"
+              subTitle="Our ultimate package. A complete snapshot of the database as well as FULL API access."
+              price="200"
               currency="$"
-              timeline="yearly"
+              timeline="+ $299.99 yearly"
               features={[
-                'Unlimited content',
-                'Ad campaign',
-                'Branding consultancy',
-                'Video ad banner',
+                'All Features of Lower Packages',
+                'Key to Our State of the Art API',
+                'Data Held on Our Server',
+                'Consistent Updates to the Data'
               ]}
-              btnText="Choose Packedge"
+              btnText="Choose Package"
               btnLink="/"
             />
           )}

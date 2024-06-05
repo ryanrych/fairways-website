@@ -19,9 +19,8 @@ export default function HeroStyle4({ videoSrc, bgUrl, thumbnailSrc }) {
           <div className="col-lg-5">
             <div className="cs_hero_subtitle">
               <p className="mb-0">
-                Our agency offers a comprehensive suite of lots services,
-                including Branding, Advertising, Social marketing, Video making,
-                and Marketing analysis.
+                A world-class golf database, perfect for any use case. We offer a plethora of data on over 20-thousand courses 
+                world wide at a fraction of our competition's price.
               </p>
               <a
                 href="#service"
@@ -48,7 +47,7 @@ export default function HeroStyle4({ videoSrc, bgUrl, thumbnailSrc }) {
         </div>
       </div>
       <div className="cs_hero_shape">
-        <svg
+      <svg
           width={458}
           height={475}
           viewBox="0 0 458 475"

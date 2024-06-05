@@ -24,7 +24,7 @@ export default function PricingTable({
             {price}
           </h3>
           <span className="cs_accent_color cs_medium">
-            {timeline && `/${timeline}`}
+            {timeline && `${timeline}`}
           </span>
         </div>
         <div className="cs_price_text cs_gray_color_2">{subTitle}</div>

@@ -12,7 +12,7 @@ import Marquee from '../Marquee';
 import Brands from '../Brands';
 import { pageTitle } from '../../helpers/PageTitle';
 const funfactData = [
-  { title: 'Happy Customers', number: '22k' },
+  { title: 'Golf Courses', number: '20k+' },
   { title: 'Work’s Completed', number: '15k' },
   { title: 'Skilled Team Members', number: '121' },
   { title: 'Most Valuable Awards', number: '15' },
@@ -133,8 +133,8 @@ export default function AboutPage({ darkMode }) {
       <Spacing lg="125" md="70" />
       <AboutStyle5
         variant="cs_type_1"
-        thumbnailSrc="/images/digital-agency/about_2.jpeg"
-        miniTitle="What We Do"
+        thumbnailSrc="/images/digital-agency/waterfall.jpeg"
+        miniTitle=""
         title="Best value service provider agency"
         subTitle="We make specializing in strategic digital marketing, partners with aiming the world's leading brands. Breaking from the norm, we push boundaries and do merge imaginative thinking posible dolores."
         progressBarList={[
