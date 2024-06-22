@@ -49,6 +49,8 @@
     position: relative;
   }
   .cs_hero_shape {
+    width: 400px;
+    height: 400px;
     left: -100px;
     top: -9px;
     animation: heroShapeAnim 20s linear infinite alternate;
