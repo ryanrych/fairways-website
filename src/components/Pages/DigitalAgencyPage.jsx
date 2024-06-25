@@ -17,7 +17,7 @@ import { pageTitle } from '../../helpers/PageTitle';
 const funfactData = [
   { title: 'Golf Courses', number: '21,000' },
   { title: 'Countries', number: '109' },
-  { title: 'States/Territories', number: '771' },
+  { title: 'Data Points Per Course', number: '100+' },
 ];
 const postData = [
   {
@@ -138,8 +138,8 @@ export default function DigitalAgencyPage({ darkMode }) {
   return (
     <>
       <HeroStyle4
-        title="Penis"
-        subTitle="and butts"
+        title=""
+        subTitle=""
       />
       <div className="cs_primary_bg">
         <Spacing lg="40" md="80" />
@@ -168,12 +168,14 @@ export default function DigitalAgencyPage({ darkMode }) {
         videoSrc="/images/digital-agency/cut3.mp4"
         miniTitle=""
         title="The Best Value Golf API in the Industry"
-        subTitle="We've spent hours building one comprehensive database to solve all of the needs for your project or company. Here are just a few of our records:"
+        subTitle="We've spent hundreds of hours building one comprehensive database to solve all of the needs for your project or company. Here are just a few of our records:"
         progressBarList={[
-          { title: 'North American Coverage', percentage: '90' },
-          { title: 'Contact Information', percentage: '85' },
-          { title: 'Hole Par\'s', percentage: '95' },
-          { title: 'Hole Distance\'s', percentage: '100' },
+          { title: 'US Coverage', percentage: '99' },
+          { title: 'Contact Information', percentage: '62' },
+          { title: 'Course Location', percentage: '92' },
+          { title: 'Hole Length', percentage: '86' },
+          { title: 'Hole Par & Handicap', percentage: '86' },
+          { title: 'Tee Box Slope & Rating', percentage: '99' },
         ]}
       />
       {/*
@@ -265,8 +267,8 @@ export default function DigitalAgencyPage({ darkMode }) {
         <div className="cs_height_143 cs_height_lg_75" />
         <div className="container">
           <SectionHeading
-            title="Offering Budget Friendly <br /> Solutions for Your Business"
-            subTitle="Our Pricing"
+            title="Our Budget-Friendly Packages"
+            subTitle=""
           />
           <Spacing lg="85" md="45" />
         </div>

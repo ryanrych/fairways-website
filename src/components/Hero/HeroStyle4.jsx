@@ -19,7 +19,7 @@ export default function HeroStyle4({ videoSrc, bgUrl, thumbnailSrc }) {
           <div className="col-lg-5">
             <div className="cs_hero_subtitle">
               <p className="mb-0">
-                A world-class golf database, perfect for any use case. We offer a plethora of data on over 20-thousand courses 
+                A world-class golf database, endorsed by PGA professionals, perfect for any use case. We offer a plethora of data on over 20-thousand courses 
                 world wide at a fraction of our competition's price.
               </p>
               <a
