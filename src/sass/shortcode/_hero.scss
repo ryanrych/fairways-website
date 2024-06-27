@@ -1,6 +1,11 @@
 /*--------------------------------------------------------------
   11. Hero
 ----------------------------------------------------------------*/
+#maintitle{
+  font-size: 80px;
+  text-align: center;
+  transform: translate(0, -100px);
+}
 .cs_hero_video_icon {
   svg {
     animation: heroVideoIconAnimo 3s linear infinite;
