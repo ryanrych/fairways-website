@@ -15,9 +15,9 @@ import PortfolioSlider from '../Slider/PortfolioSlider';
 import PricingTableList from '../PricingTable/PricingTableList';
 import { pageTitle } from '../../helpers/PageTitle';
 const funfactData = [
-  { title: 'Golf Courses', number: '21,000' },
-  { title: 'Countries', number: '109' },
-  { title: 'Data Points Per Course', number: '100+' },
+  { title: 'States Available', number: '48' },
+  { title: 'Leagues with Real-Time Odds', number: '16' },
+  { title: 'Bets to Place Daily', number: '1000+' },
 ];
 const postData = [
   {
@@ -165,18 +165,16 @@ export default function DigitalAgencyPage({ darkMode }) {
       */}
       <Spacing lg="100" md="80" />
       <AboutStyle5
-        thumbnailSrc="/images/digital-agency/waterfall.jpg"
-        videoSrc="/images/digital-agency/cut3.mp4"
+        thumbnailSrc="/images/digital-agency/bettors.jpg"
+        videoSrc="/images/digital-agency/bets.mp4"
         miniTitle=""
-        title="The Best Value Golf API in the Industry"
-        subTitle="We've spent hundreds of hours building one comprehensive database to solve all of the needs for your project or company. Here are just a few of our records:"
+        title="The New Wave of Sports Betting"
+        subTitle="We've spent hundreds of hours building one app to eliminate the needs of betting against a house rigged against you. Play your friends, show your true skill, win the league."
         progressBarList={[
-          { title: 'US Coverage', percentage: '99' },
-          { title: 'Contact Information', percentage: '62' },
-          { title: 'Course Location', percentage: '92' },
-          { title: 'Hole Length', percentage: '86' },
-          { title: 'Hole Par & Handicap', percentage: '86' },
-          { title: 'Tee Box Slope & Rating', percentage: '99' },
+          { title: 'Professional Sports Coverage', percentage: '90' },
+          { title: 'NCAA Coverage', percentage: '85' },
+          { title: 'Bet Variety', percentage: '45' },
+          { title: 'Less Percent Loss per Player', percentage: '40' },
         ]}
       />
       {/*
@@ -264,7 +262,7 @@ export default function DigitalAgencyPage({ darkMode }) {
         <Spacing lg="150" md="80" />
       </section>
       */}
-      <section className="cs_gray_bg_2 cs_shape_animation_2">
+      {/* <section className="cs_gray_bg_2 cs_shape_animation_2">
         <div className="cs_height_143 cs_height_lg_75" />
         <div className="container">
           <SectionHeading
@@ -277,7 +275,7 @@ export default function DigitalAgencyPage({ darkMode }) {
           <PricingTableList />
         </div>
         <div className="cs_height_150 cs_height_lg_80" />
-      </section>
+      </section> */}
       {/*
       <TestimonialSlider
         layeredImages={[
